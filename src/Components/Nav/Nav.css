@@ -1,0 +1,214 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.middle {
+    width: 700px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding-left: 0px;
+    margin-right: 10px;
+}
+
+.options {
+    padding: 15px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    transition: .2s ease;
+}
+
+.cart {
+    border: 1px solid gray;
+    padding: 14px;
+    transition: .2s ease;
+    margin-left: 5px;
+    color: black;
+}
+
+.search {
+    border: 1px solid gray;
+    padding: 10px 15px 10px 20px;
+
+}
+
+.search_inp {
+    font-size: 18px !important;
+    width: calc(100% - 50px);
+}
+
+.search_btn {
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+.options:hover {
+    background: rgb(218, 217, 217);
+}
+
+.cart:hover {
+    background: rgb(218, 217, 217);
+}
+
+.btn-menu {
+    display: none !important;
+    border: 1px solid gray !important;
+    padding: 14px !important;
+    transition: .2s ease !important;
+    margin: 0px 5px !important;
+    font-size: 16px !important;
+    color: black !important;
+    width: 51px !important;
+    height: 47px !important;
+    min-width: 0px !important;
+    line-height: 0 !important;
+}
+
+.btn-menu:hover {
+    background: rgb(218, 217, 217);
+}
+
+.box-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.box-cart {
+   padding: 10px 0px;
+    width: 100%;
+    transition: .2s ease;
+    height: 100%;
+}
+
+.counter-box{
+    position: absolute;
+    top: 0;
+    right: 3px;
+    color: rgb(182, 0, 0);
+}
+
+.icon-menu{
+    position: relative;
+}
+
+.menu-counter{
+    position: absolute;
+    top: -15px;
+    color: rgb(182, 0, 0);
+}
+
+
+.box-cart:hover {
+    background: rgb(218, 217, 217);
+}
+
+.box_menu{
+    text-align: center;
+}
+
+.box_menu p{
+    margin: 0px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .2s ease;
+    margin: 8px 0px ;
+}
+
+.box_menu p:hover{
+  background: rgb(218, 217, 217);
+}
+
+.Cartflex{
+    background: goldenrod;
+    transition: 0.3s ease;
+    width: 210px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.absolute{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999 !important;
+    background: white;
+    transition: 0.2s;
+}
+
+.Cartflex .icon-cart{
+    margin-right: 6px;
+}
+
+.Cartflex:hover{
+    background: green;
+}
+
+.counter{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+@media screen and (max-width:900px) {
+    .left img {
+        width: 100px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .btn-menu {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    .right{
+        margin-left: unset;
+    }
+    .Cartflex{
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    .search{
+        display: none;
+    }
+
+    .left img {
+        width: 125px;
+    }
+    
+}

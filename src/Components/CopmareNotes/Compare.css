@@ -1,0 +1,114 @@
+table{
+    width: 100%;
+    display: flex;
+}
+tbody{
+    display: flex;
+}
+.cart-table-head{
+    border: 1px solid #f9f9f9;
+    border-collapse: collapse;
+    height: 100%;
+}
+.table-head-row{
+    border-bottom: 1px solid #eee;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-head-row th{
+    border-right: 1px solid #efefef;
+    padding: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.storage{
+    padding-top: 25px !important;
+}
+
+.table-body-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.price-all {
+    width: 350px;
+    margin-left: 10px;
+}
+.total-table{
+    border: 1px solid #efefef;
+    width: 100%
+}
+.table-total-row th {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px;
+}
+.total-table-head {
+    border-bottom: 1px solid #eee;
+}
+.table-total-row {
+    background-color: #efefef;
+}
+
+.total-div table tbody td {
+    border: 1px solid #efefef;
+    padding: 19px 15px;
+    height: 50px;
+}
+
+table.total-table tbody tr.total-data td {
+    border: 1px solid #efefef;
+    padding: 19px 15px;
+}
+.td_img{
+    height: 70px;
+}
+.compare td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.compare th{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.th-del{
+    height: 15px;
+}
+
+
+.product-videocart-model span{
+    margin-right: 5px;
+    font-size: 28px;
+}
+
+.icon-intel, .icon-amd{
+    font-size: 28px;
+}
+
+
+@media screen and (max-width:724px) {
+    .Totals-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .total-div{
+        width: unset;
+        margin-bottom:30px ;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .Totals-flex{
+        transform: scale(0.8);
+    }
+    
+}

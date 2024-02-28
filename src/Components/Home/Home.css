@@ -1,0 +1,33 @@
+.notes {
+    background: rgb(238, 238, 238);
+    padding: 50px 0px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap row;
+}
+
+.container-note {
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+
+.hotsale{
+    max-width: 1220px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap row;
+    padding: 50px 0px;
+}
+
+.hot-header{
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+}

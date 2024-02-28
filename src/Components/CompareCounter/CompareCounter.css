@@ -1,0 +1,14 @@
+.CompareCounter{
+    position: fixed;
+    bottom: 10px;
+    z-index: 1;
+    right: 10px;
+    background: rgb(255, 208, 0);
+    padding: 15px;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.CompareCounter:hover{
+    background: rgb(255, 153, 0);
+}

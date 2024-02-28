@@ -1,0 +1,124 @@
+.note-head {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #323232;
+    padding: 5px 15px 10px;
+    margin: 70px 0px;
+}
+
+.notemouse {
+    padding: 0 5rem;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../../public/images/other/bg.jpg");
+}
+
+.notemouse h1 {
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.notemouse_flex {
+    display: flex;
+    align-items: center;
+}
+
+.notebook {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 822px;
+    height: 699px;
+    background-image: url("../../../public/images/noteimg/nb2.png");
+}
+
+.mouse {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 222px;
+    height: 260px;
+    background-image: url("../../../public/images/noteimg/mouse.png");
+}
+
+.logos {
+    background: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexlogo img {
+    margin: 0px 10px;
+    
+}
+
+
+@media screen and (max-width:1118px) {
+    .mouse {
+        display: none;
+    }
+
+    .notebook {
+        width: 622px;
+        height: 499px;
+    }
+
+    .notemouse_flex {
+        justify-content: center;
+    }
+
+    .notemouse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .notemouse h1 {
+        font-size:40px;
+    }
+    .flexlogo img{
+        width: 100%;
+    }
+    .logos{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .notemouse{
+        padding: 0;
+    }
+    .flexlogo{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .notebook {
+        width: 422px;
+        height: 299px;
+    }
+
+} 
+
+@media screen and (max-width:445px) {
+
+    .notemouse{
+        display: none;
+    }
+    
+}

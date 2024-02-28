@@ -1,0 +1,31 @@
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0da3ad;
+    color: white;
+}
+
+.header_menu{
+   text-align: center;
+}
+
+.header_menu span{
+    margin: 0px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.header_menu span:hover{
+  color: rgb(218, 217, 217);
+}
+
+
+@media screen and (max-width:650px) {
+    .header{
+      display: none;
+    }
+}

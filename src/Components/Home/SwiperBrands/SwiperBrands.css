@@ -1,0 +1,29 @@
+.container{
+    max-width: 600px ;
+    margin: 0px auto ;
+    padding: 10px 0px;
+}
+
+.brand_header{
+    text-align: center;
+    font-size: 50px;
+}
+
+.brand_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:1010px) {
+    .container{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .brand_img img{
+        transform: scale(0.7);
+    }
+}

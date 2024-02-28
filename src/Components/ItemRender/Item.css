@@ -1,0 +1,48 @@
+.item_note {
+    width: 300px;
+    padding: 10px 10px 0px 10px;
+    height: 535px;
+    margin: 10px ;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item_note_img img {
+    width: 100%;
+}
+.item_info {
+    font-size: 1rem;
+    color: #6f6f6f !important;
+    margin-bottom: 10px;
+}
+.item_offers div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.btn-buy {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    color: #fff;
+    border: 2px solid transparent;
+    background-color: #015aac;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    font-weight: bold;
+    line-height: normal;
+}
+.discount{
+    color: rgb(201, 4, 4);
+}
+.btn-compare {
+    font-size: 22px;
+}

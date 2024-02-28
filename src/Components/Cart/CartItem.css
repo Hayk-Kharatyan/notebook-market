@@ -1,0 +1,43 @@
+.carts{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(226, 225, 225);
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    color: black;
+    flex-direction: column;
+}
+
+.Xbtn{
+    cursor: pointer;
+    transition: 0.2s ease;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.Xbtn:hover{
+    color:  rgb(206, 52, 52) !important;
+    text-decoration: underline;
+}
+
+.phone-counter{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    background: white;
+    transition: 0.2s;
+}
+
+.phone-counter:hover{
+    background: rgb(182, 181, 181);
+}
+
+.counter-number{
+    margin: 0px 5px;
+}
+
