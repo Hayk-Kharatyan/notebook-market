@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/notebook-market/static/css/main.b893679e.css",
+    "main.js": "/notebook-market/static/js/main.4683be9c.js",
+    "static/js/592.a242c26e.chunk.js": "/notebook-market/static/js/592.a242c26e.chunk.js",
+    "static/media/nb2.png": "/notebook-market/static/media/nb2.a74b38df0e535691f656.png",
+    "static/media/bg.jpg": "/notebook-market/static/media/bg.da2b1f9a80649cfa4ecb.jpg",
+    "static/media/mouse.png": "/notebook-market/static/media/mouse.1c19c00155eeb552c9b0.png",
+    "static/media/icomoon.svg?q88tws": "/notebook-market/static/media/icomoon.5e9e1866b100159a46c5.svg",
+    "static/media/icomoon.eot?q88tws": "/notebook-market/static/media/icomoon.243fe339c4c1af667e79.eot",
+    "static/media/icomoon.woff?q88tws": "/notebook-market/static/media/icomoon.10ec53015797f2e770fb.woff",
+    "static/media/icomoon.ttf?q88tws": "/notebook-market/static/media/icomoon.b9619fc4506c5216be9c.ttf",
+    "index.html": "/notebook-market/index.html",
+    "main.b893679e.css.map": "/notebook-market/static/css/main.b893679e.css.map",
+    "main.4683be9c.js.map": "/notebook-market/static/js/main.4683be9c.js.map",
+    "592.a242c26e.chunk.js.map": "/notebook-market/static/js/592.a242c26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b893679e.css",
+    "static/js/main.4683be9c.js"
+  ]
+}
